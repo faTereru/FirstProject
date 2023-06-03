@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.header {
+    height: 70px;
+}
+
+.header_list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container {
+    width: 80%;
+    margin-left: 10%;
+}
+
+.header .header_list li {
+    line-height: 70px;
+    color: #828282;
+    cursor: pointer;
+}
+
+.header .header_list li:hover {
+    color: black;
+    border-bottom: 1px solid black;
+}
+
+.header .container {
+    border-bottom: 1px solid #828282;
+}
+
+.main {
+    margin-top: 40px;
+}
+
+.main_top {
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main_top_item_one {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.main_top_item_two {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.main_top_item_three {
+    writing-mode: vertical-rl;
+    display: flex;
+    justify-content: center;
+}
+.main_photo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main_photo img {
+    height: 400px;
+    width: auto;
+}
+
+.main_photo img:hover {
+    transform: scale(1.02);
+    box-shadow: 1px 1px 1px;
+    transition: all .5s;
+}
+
+.about {
+    background: #F6F6F6;
+    margin-top: 105px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 107px;
+
+
+}
+
+.about_top {
+    margin-top: 120px;
+    font-size: 48px;
+    font-weight: 700;
+    color: black;
+}
+
+.p_one {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    color: #828282;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    text-align: center
+}
+
+.skills_text {
+    margin-top: 90px;
+    text-align: center;
+    margin-bottom: 80px;
+
+}
+
+.skills_title {
+    font-weight: bold;
+    font-size: 34px;
+    margin-bottom: 70px;
+}
+
+.skills_items {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 110px;
+
+}
+
+.skills_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.item_photo {
+    max-width: 80px;
+    margin-bottom: 20px;
+}
+
+.item_title {
+    width: 80px;
+    text-align: center;
+    color: #828282;
+    margin-bottom: 40px;
+}
+
+.item_stars {
+    margin-top: auto;
+}
+
+.portfolio {
+    background: #F6F6F6;
+    padding-top: 100px;
+}
+
+.portfolio_title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 34px;
+    margin-bottom: 50px;
+}
+
+.levis{
+    
+}
+.levis_photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 45px;
+    font-size: 18px;
+}
+
+
+.levis_text {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 18px;
+    padding-bottom: 100px;
+}
